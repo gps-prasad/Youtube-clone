@@ -1,0 +1,108 @@
+h1{
+    font-size: 1vw;
+}
+.navbar-custom{
+    background-color:white;
+}
+.container_margin{
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 65px;
+}
+.channel-logo img{
+    width: 35px;
+    height: 35px;
+}
+.card{
+    height: 45vh;
+}
+.card-img-top{
+    height: 60%;
+}
+.card-text{
+    max-height:50px;
+    overflow: hidden;
+}
+.small-nav{
+    width: 40px;
+    padding-top: 10px;
+}
+.small-nav-item{
+    margin-left: auto;
+    margin-right: auto;
+}
+.side-nav-text div{
+    height: 25px;
+}
+.side-nav-icons div{
+    height: 25px;
+}
+hr{
+    height: 1px;
+    margin: 10px;
+    background-color: black;
+}
+::-webkit-scrollbar{
+    display: none;
+    width:5px;
+    background-color: none;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color:rgb(126, 126, 126);
+    border-radius: 10px;
+}
+.like,.dislike,.search_bar,.search_button{
+    border-radius: 20px;
+}
+.search_button
+{
+    background-color: rgba(234, 234, 234, 0.871);
+}
+.explore div{
+    margin-left: 10px;
+}
+.modal-dialog{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    z-index: 100000;
+}
+
+a,a:visited {
+    color: black !important;
+    text-decoration: none;
+}
+a:hover,a:active {
+    color: black !important;
+    text-decoration: none;
+}
+
+a {
+    color: black !important;
+    text-decoration: none;
+}
+
+
+
+
+
+@media(max-width:577px) {
+
+      .rounded-3
+      {
+        border-radius:0px !important
+        }
+        .container_margin{
+            padding-top: 2px;
+        }
+
+
+      }
